@@ -1,0 +1,257 @@
+.home-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-container h1 {
+  color: #00698f;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.home-image {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.nav-link.active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.add-player {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-player h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-player form {
+  margin-top: 20px;
+}
+
+.add-player label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-player input[type="text"],
+.add-player input[type="number"] {
+  width: 90%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-player button[type="submit"] {
+  width: 100%;
+  height: 50px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-player button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.success-message {
+  color: #2ecc71;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.top-players-list {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-players-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-players-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-players-list li {
+  margin-bottom: 10px;
+}
+
+.top-players-list strong {
+  font-weight: bold;
+}
+
+.top-players-list span {
+  font-style: italic;
+}
+
+.match-stats {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.match-stats h2 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.match-stats .error-message {
+  color: #f00;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.match-stats table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.match-stats table th,
+.match-stats table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.match-stats table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.match-stats table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.match-stats table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* styles.css */
+.matches-by-date-range {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.matches-by-date-range h2 {
+  margin-top: 0;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-group input[type="date"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group button {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #3e8e41;
+}
+
+.error-message {
+  color: #f44336;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
